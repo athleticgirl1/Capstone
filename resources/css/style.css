@@ -147,15 +147,21 @@ header .blue {
   display: none;
 }
 
-.middle .one {
+.middleone .one {
   color: #737373;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+
+.middleone .two {
+  color: DimGray;
+  font-family: sans-serif;
   margin-bottom: 32px;
 }
 
-.middle .two {
-  color: DimGray;
-  font-family: sans-serif;
+.middleone .three {
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 32px;
 }
 
@@ -164,10 +170,10 @@ header .blue {
   border-left: 2px solid #e6e6e6;
 }
 
-.middletwo img {
+.middletwo .ape {
   width: 35%;
   height: auto;
-  padding: 16px 16px 16px 16px;
+  padding: 16px;
 }
 
 .middletwo .one {
@@ -293,7 +299,7 @@ header .blue {
 
 .end {
   background-color: #f2f2f2;
-  padding: 32px 0 32px 24px;
+  padding: 32px 0 22px 24px;
 }
 
 .end h1 {
@@ -326,6 +332,7 @@ header .blue {
 .end .light {
   color: #737373;
   font-family: sans-serif;
+  padding-bottom: 10px;
 }
 
 .endtwo {
@@ -380,7 +387,7 @@ footer .two {
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 600px)
 {
   header .mobile {
     display: flex;
